@@ -20,15 +20,6 @@ Designed for high-performance computing environments, the code targets large dat
 - WSL2 on Ubuntu (tested)
 
 
-## 📁 Folder Structure
-
-.
-├── serial_merge_sort.c      # Serial implementation
-├── openmp_merge_sort.c      # OpenMP implementation
-├── mpi_merge_sort.c         # MPI implementation
-├── hybrid_merge_sort.c      # MPI + OpenMP hybrid implementation
-└── README.md
-
 ## Compilation Commands 
 
  - gcc - o serial_m erge_sort serial_ merge_sort.c
@@ -43,7 +34,15 @@ Designed for high-performance computing environments, the code targets large dat
 - mpirun - np 4 . / mpi_merge_sort
 - mpirun - np 4 . / hybrid_merge_sort
 
+## 📁 Folder Structure
 
+```bash
+.
+├── serial_merge_sort.c      # Serial implementation
+├── openmp_merge_sort.c      # OpenMP implementation
+├── mpi_merge_sort.c         # MPI implementation
+├── hybrid_merge_sort.c      # MPI + OpenMP hybrid implementation
+└── README.md
 
 
 
